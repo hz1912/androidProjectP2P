@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="3dp">
+
+        <LinearLayout
+            android:id="@+id/ll_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_home"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/bid02"></ImageView>
+
+            <TextView
+                android:id="@+id/tv_home"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:paddingLeft="5dp"
+                android:text="首页"
+                android:textColor="@color/home_back_unselected"
+                android:textSize="12sp"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_touzi"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_touzi"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/bid04"></ImageView>
+
+            <TextView
+                android:id="@+id/tv_touzi"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="3dp"
+                android:paddingLeft="5dp"
+                android:text="投资"
+                android:textColor="@color/home_back_unselected"
+                android:textSize="12sp"></TextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_me"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_me"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/bid06"></ImageView>
+
+            <TextView
+                android:id="@+id/tv_me"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="3dp"
+                android:paddingLeft="5dp"
+                android:text="我的资产"
+                android:textColor="@color/home_back_unselected"
+                android:textSize="12sp"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_more"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_more"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/bid08"></ImageView>
+
+            <TextView
+                android:id="@+id/tv_more"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="3dp"
+                android:paddingLeft="5dp"
+                android:text="更多"
+                android:textColor="@color/home_back_unselected"
+                android:textSize="12sp"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
